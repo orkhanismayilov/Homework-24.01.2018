@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.colorSelect {
+    width: 100px;
+    height: 24px;
+    font-size: 18px;
+    outline: none;
+}
+
+.remove {
+    height: 24px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: greenyellow;
+}
+
+.undo {
+    height: 24px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: greenyellow;
+}
+
+.remove:active, .undo:active{
+    background: gray;
+}
